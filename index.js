@@ -19,14 +19,26 @@ var two = 2
   // Feel free to move things around!
  
 }
+<<<<<<< HEAD
 var funkyFunction = function()
 {return function() {
     return "FUNKY!"}
+=======
+var theFunk = funkyFunction()
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
+>>>>>>> d3fe917e35c15871de775ebb5982518cbd485f1f
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
+<<<<<<< HEAD
 var theFunk = funkyFunction();
 theFunk(); 
 
+=======
+theFunk = funkyFunction()
+>>>>>>> d3fe917e35c15871de775ebb5982518cbd485f1f
